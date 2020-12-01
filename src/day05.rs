@@ -25,6 +25,7 @@ mod tests {
 
     #[test]
     fn example1() {
-        let example = "ugknbfddgicrmopn";
+        let example = vec!["ugknbfddgicrmopn".to_owned()];
+        assert_eq!(1, solve_part1(&example));
     }
 }
